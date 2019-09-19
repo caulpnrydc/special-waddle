@@ -16,6 +16,24 @@ class conversion {
             main(null);
         }
 
+        else if(n.equals("CF")) {
+            System.out.println("Starting Celsius --> Fahrenheit conversion...");
+            metric.cF();
+            main(null);
+        }
+
+        else if(n.equals("FM")) {
+            System.out.println("Starting Feet --> Meters conversion...");
+            metric.fM();
+            main(null);
+        }
+
+        else if(n.equals("MF")) {
+            System.out.println("Starting Meter --> Feet conversion...");
+            metric.mF();
+            main(null);
+        }
+
         else
             System.out.println("Quitting program...");
     }
