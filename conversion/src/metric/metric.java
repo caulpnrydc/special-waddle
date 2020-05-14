@@ -31,4 +31,32 @@ public class metric {
         int sum = (int) (n*3.281);
         System.out.println(n+"m --> "+sum+"ft");
     }
+
+    public static void iCM() {
+        System.out.println("Please enter the total inches: ");
+        int n = scanIt.scanInt();
+        int sum = (int) (n*2.54);
+        System.out.println(n+"in --> "+sum+"cm");
+    }
+
+    public static void cMI() {
+        System.out.println("Please enter the total centimeters: ");
+        int n = scanIt.scanInt();
+        int sum = (int) (n/2.54);
+        System.out.println(n+"cm --> "+sum+"in");
+    }
+
+    public static void mKM() {
+        System.out.println("Please enter the total miles: ");
+        int n = scanIt.scanInt();
+        int sum = (int) (n*1.60934);
+        System.out.println(n+"miles --> "+sum+"km");
+    }
+
+    public static void kMM() {
+        System.out.println("Please enter the total kilometers: ");
+        int n = scanIt.scanInt();
+        int sum = (int) (n/1.60934);
+        System.out.println(n+"km --> "+sum+"miles");
+    }
 }
