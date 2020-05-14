@@ -34,6 +34,30 @@ class conversion {
             main(null);
         }
 
+        else if(n.equals("ICM")) {
+            System.out.println("Starting Inches --> Centimeters conversion...");
+            metric.iCM();
+            main(null);
+        }
+
+        else if(n.equals("CMI")) {
+            System.out.println("Starting Centimeters --> Inches conversion...");
+            metric.cMI();
+            main(null);
+        }
+
+        else if(n.equals("MKM")) {
+            System.out.println("Starting Mile --> Kilometer conversion...");
+            metric.mKM();
+            main(null);
+        }
+
+        else if(n.equals("KMM")) {
+            System.out.println("Starting Kilometer --> Mile conversion...");
+            metric.kMM();
+            main(null);
+        }
+
         else
             System.out.println("Quitting program...");
     }
