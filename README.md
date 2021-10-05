@@ -4,7 +4,10 @@
 
 Application used for programatic conversion between systems for some use cases such as:
 
-Fahrenheit <-> Celcius
-Feet <-> Meters
-Inches <-> Centimeters
-Mile <-> Kilometer
+<ul>
+    <li>Fahrenheit <-> Celcius</li>
+    <li>Feet <-> Meters</li>
+    <li>Inches <-> Centimeters</li>
+    <li>Mile <-> Kilometer</li>
+    <li>Gallons <-> Liters</li>
+</ul>
