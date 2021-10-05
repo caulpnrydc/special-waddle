@@ -59,4 +59,18 @@ public class metric {
         int sum = (int) (n/1.60934);
         System.out.println(n+" km --> "+sum+" miles");
     }
+
+    public static void gL() {
+        System.out.println("Please enter the total gallons: ");
+        int n = scanIt.scanInt();
+        int sum = (int) (n*3.785);
+        System.out.println(n+" gallons --> "+sum+" liters");
+    }
+
+    public static void lG() {
+        System.out.println("Please enter the total liters: ");
+        int n = scanIt.scanInt();
+        int sum = (int) (n/3.785);
+        System.out.println(n+" liters --> "+sum+" gallons");
+    }
 }
