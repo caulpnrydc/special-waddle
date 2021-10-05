@@ -58,6 +58,18 @@ class conversion {
             main(null);
         }
 
+        else if(n.equals("GL")) {
+            System.out.println("Starting Gallons --> Liters conversion...");
+            metric.gL();
+            main(null);
+        }
+
+        else if(n.equals("LG")) {
+            System.out.println("Starting Liters --> Gallons conversion...");
+            metric.lG();
+            main(null);
+        }
+
         else
             System.out.println("Quitting program...");
     }
