@@ -63,7 +63,7 @@ class conversion {
     }
 
     private static void help() {
-        System.out.println("Available commands:\n\"FC\" - Fahrenheit --> Celsius\n\"CF\" Celsius --> Fahrenheit\n\"FM\" Feet --> Meters\n\"MF\" Meters --> Feet");
+        System.out.println("Available commands:\n\"FC\" - Fahrenheit --> Celsius\n\"CF\" Celsius --> Fahrenheit\n\"FM\" Feet --> Meters\n\"MF\" Meters --> Feet\n\"ICM\" Inches --> Centimeters\n\"CMI\" Centimeters --> Inches\n\"MKM\" Miles --> Kilometers\n\"KMM\" Kilometers - Miles");
         main(null);
     }
 }
